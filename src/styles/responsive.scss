@@ -1,0 +1,28 @@
+// responsive.scss
+@import "variables";
+
+@media (max-width: 500px) {
+  h1 {
+    text-align: center;
+  }
+  .form-group {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 25px;
+    gap: 5%;
+  }
+  .event {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+  }
+  .event-buttons {
+    flex-direction: column;
+  }
+  .span.event-name{
+    font-size: 20px;
+  }
+  .event-buttons button{
+    font-size: 15px;
+  }
+}

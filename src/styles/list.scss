@@ -1,0 +1,30 @@
+// list.scss
+@import 'variables';
+
+.event {
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #e2e6ea;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.event-name {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.event-buttons{
+    display: flex;
+    width: 20vw;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.event-buttons button{
+    margin: 0;
+}
