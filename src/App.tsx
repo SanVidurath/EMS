@@ -9,8 +9,8 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/eventms" element={<Form />} />
-        <Route path="/eventms/eventsList" element={<List />} />
+        <Route path="/EMS" element={<Form />} />
+        <Route path="/EMS/eventsList" element={<List />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
