@@ -42,7 +42,7 @@ const Form = () => {
         
       </form>
       
-          <Link to="/EMS/eventsList"><button type="submit" className="btn-all-events">View All Events</button></Link>
+          <Link to="/eventsList"><button type="submit" className="btn-all-events">View All Events</button></Link>
         
     </div>
   );
