@@ -46,7 +46,7 @@ const List = () => {
           <button className="btn-delete-event">Delete Event</button>
         </div>
       </div>
-      <Link to="/">
+      <Link to="/EMS">
         <button type="submit">Add Event</button>
       </Link>
       {modal && (
