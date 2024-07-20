@@ -1,3 +1,4 @@
+// hook.tsx
 import { useContext } from "react";
 import { AppContext, AppContextProps } from "./context";
 
