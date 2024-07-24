@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/EMS/" element={<Form />} />
         <Route path="/EMS/eventsList" element={<List />} />
-        <Route path="*" element={<NotFound />} />
+        <Route path="/EMS/*" element={<NotFound />} />
       </Routes>
     </Router>
   )
