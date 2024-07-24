@@ -13,11 +13,13 @@
   }
   .event {
     flex-direction: column;
+    width: 80%;
     gap: 10px;
     text-align: center;
   }
   .event-buttons {
     flex-direction: column;
+    width: 80%;
   }
   .span.event-name{
     font-size: 20px;
