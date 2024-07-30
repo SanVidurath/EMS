@@ -1,6 +1,6 @@
 // App.tsx
 import Form from "./components/Form"
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import {HashRouter as Router, Routes, Route} from 'react-router-dom';
 import List from "./components/List";
 import NotFound from "./components/NotFound";
 
@@ -11,7 +11,7 @@ function App() {
       <Routes>
         <Route path="/EMS/" element={<Form />} />
         <Route path="/EMS/eventsList" element={<List />} />
-        <Route path="/EMS/*" element={<NotFound />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
   )
