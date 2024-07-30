@@ -96,7 +96,7 @@ const Form = () => {
         <button type="submit">Add Event</button>
       </form>
       <h1 className="form-error">{state.error}</h1>
-      <Link to="/EMS/eventsList">
+      <Link to="/eventsList">
         <button type="submit" className="btn-all-events">
           View All Events
         </button>

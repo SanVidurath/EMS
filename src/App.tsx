@@ -7,10 +7,10 @@ import NotFound from "./components/NotFound";
 function App() {
 
   return (
-    <Router>
+    <Router basename="/EMS">
       <Routes>
-        <Route path="/EMS/" element={<Form />} />
-        <Route path="/EMS/eventsList" element={<List />} />
+        <Route path="/" element={<Form />} />
+        <Route path="/eventsList" element={<List />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
